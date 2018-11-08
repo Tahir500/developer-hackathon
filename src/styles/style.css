@@ -32,3 +32,80 @@ footer {
   height: 150px;
   float: left;
 }
+.red {
+  background-color: #ff6969;
+}
+.blue {
+  background-color: #6a6ac5;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: #c5c501;
+}
+
+.redpawn1 {
+  top: 155px;
+  left: 464px;
+}
+.redpawn2 {
+  top: 112px;
+  left: 425px;
+}
+.redpawn3 {
+  top: 72px;
+  left: 462px;
+}
+.redpawn4 {
+  top: 112px;
+  left: 503px;
+}
+.yellowpawn1 {
+  top: 451px;
+  left: 47px;
+}
+.yellowpawn2 {
+  top: 451px;
+  left: 140px;
+}
+.yellowpawn3 {
+  top: 404px;
+  left: 93px;
+}
+.yellowpawn4 {
+  top: 498px;
+  left: 93px;
+}
+.greenpawn1 {
+  top: 149px;
+  left: 93px;
+}
+.greenpawn2 {
+  top: 102px;
+  left: 140px;
+}
+.greenpawn3 {
+  top: 74px;
+  left: 107px;
+}
+.greenpawn4 {
+  top: 102px;
+  left: 47px;
+}
+.bluepawn1 {
+  top: 472px;
+  left: 504px;
+}
+.bluepawn2 {
+  top: 471px;
+  left: 425px;
+}
+.bluepawn3 {
+  top: 434px;
+  left: 462px;
+}
+.bluepawn4 {
+  top: 511px;
+  left: 464px;
+}
