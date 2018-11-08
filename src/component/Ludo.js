@@ -36,25 +36,12 @@ class Ludo extends Component {
 
   validateNumber = () => {
     const { diceNumber } = this.state;
-    if (diceNumber != 6 && this.DontHaveOtherFree()) {
+    if (diceNumber != 6) {
       this.setState({ badtext: "Unfortunatlly you stuck", clicked: false });
       setTimeout(() => {
         this.changePlayer();
       }, 1000);
     }
-  };
-
-  DontHaveOtherFree = () => {
-    const { diceNumber } = this.state;
-    var text = document.getElementById("player");
-    for (var i = 1; i <= 4; i++) {
-      if (
-        onboard[text.innerText + "pawn" + i] == 1 ||
-        positions[text.innerText + "pawn" + i] + diceNumber >= 44
-      )
-        return false;
-    }
-    return true;
   };
 
   Stuck = ({ currpawn, currPos, diceNumber }) => {
@@ -101,13 +88,13 @@ class Ludo extends Component {
           />
           {range(4).map((item, index) => (
             <Pawn pawnNumber={index} pawnColor="red" />
-          ))}{" "}
+          ))}
           {range(4).map((item, index) => (
             <Pawn pawnNumber={index} pawnColor="yellow" />
-          ))}{" "}
+          ))}
           {range(4).map((item, index) => (
             <Pawn pawnNumber={index} pawnColor="green" />
-          ))}{" "}
+          ))}
           {range(4).map((item, index) => (
             <Pawn pawnNumber={index} pawnColor="blue" />
           ))}
