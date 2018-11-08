@@ -1,4 +1,4 @@
-#main {
+.main {
   width: 1000px;
   float: left;
 }
@@ -9,7 +9,7 @@
   position: absolute;
   box-shadow: 0px 0px 2px 1px #000;
 }
-#board {
+.board {
   background: url(../assets/Images/board.svg) no-repeat;
   background-size: cover;
   width: 600px;
@@ -17,10 +17,9 @@
   float: left;
   margin-top: 8px;
 }
-#uselesstext1 {
+.uselesstext1 {
   float: left;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 4px;
 }
 footer {
   font-size: larger;
@@ -33,6 +32,7 @@ footer {
   height: 100px;
   float: left;
   margin-left: 10px;
+  margin-right: 20px;
 }
 .dice-1 {
   background-image: url(../assets/Images/1.png);
@@ -139,4 +139,7 @@ h6 {
 }
 .dice-turn {
   padding: 30px 0 0 3px;
+}
+.player {
+  font-size: inherit;
 }
