@@ -33,7 +33,6 @@ class Ludo extends Component {
           <div
             className="pawns green greenpawn1"
             onclick="randomMove('green',1)"
-            style={{ top: "149px", left: "93px" }}
           />
           <div
             className="pawns green greenpawn2"

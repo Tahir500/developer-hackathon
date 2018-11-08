@@ -7,6 +7,7 @@
   height: 30px;
   border-radius: 20px;
   position: absolute;
+  box-shadow: 0px 0px 2px 1px #000;
 }
 #board {
   background: url(../assets/Images/board.svg) no-repeat;
@@ -28,15 +29,15 @@ footer {
 .dice {
   background-image: url(../assets/Images/dice.gif);
   background-size: contain;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   float: left;
 }
 .red {
-  background-color: #ff6969;
+  background-color: #a00606;
 }
 .blue {
-  background-color: #6a6ac5;
+  background-color: darkslateblue;
 }
 .green {
   background-color: green;
@@ -62,36 +63,36 @@ footer {
   left: 503px;
 }
 .yellowpawn1 {
-  top: 451px;
-  left: 47px;
+  top: 473px;
+  left: 67px;
 }
 .yellowpawn2 {
-  top: 451px;
-  left: 140px;
+  top: 473px;
+  left: 145px;
 }
 .yellowpawn3 {
-  top: 404px;
-  left: 93px;
+  top: 433px;
+  left: 105px;
 }
 .yellowpawn4 {
-  top: 498px;
-  left: 93px;
+  top: 512px;
+  left: 105px;
 }
 .greenpawn1 {
-  top: 149px;
-  left: 93px;
+  top: 153px;
+  left: 103px;
 }
 .greenpawn2 {
-  top: 102px;
-  left: 140px;
+  top: 112px;
+  left: 144px;
 }
 .greenpawn3 {
   top: 74px;
   left: 107px;
 }
 .greenpawn4 {
-  top: 102px;
-  left: 47px;
+  top: 112px;
+  left: 64px;
 }
 .bluepawn1 {
   top: 472px;
